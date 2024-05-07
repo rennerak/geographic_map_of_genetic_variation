@@ -6,7 +6,7 @@ This project is inspired by the study titled [Genes mirror geography within Euro
 Studies have demonstrated that genetic variants can differ significantly between populations, reflecting ancestral genetic differences. This correlation has implications for understanding disease susceptibility, treatment response, and population health disparities.
 
 ## Research Objective:
-This project attempts to assess the correlation of genetic ancestry with genetic variation via:
+This project attempts to assess the correlation of genetic variation with genetic ancestry via:
 - parsing data from human chromosome 22 and an associated population data panel
 - running dimensionality reduction to assess correlation via geographic map
 - dimensionality reduction will include PCA and tSNE and the effectiveness of PCA will be evaluated
