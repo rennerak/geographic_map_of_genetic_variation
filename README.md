@@ -1,16 +1,15 @@
-# Add Title of Project
+# Chromosome 22: Creating a Geographic Map of Genetic Variation
 
-This project is the applied data science capstone project which is part of the IBM Data Science Professional Certificate hosted on Coursera. 
+This project is inspired by the study titled [Genes mirror geography within Europe](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2735096/) by Novembre et al. and similarly aims to uncover the influence of ancestry on genotype and population data from chromosome 22 downloaded from the [The International Genome Sample Resource](https://www.internationalgenome.org/).
 
 ## Rationale:
-The cost of rocket launches is majorly influenced by reusage of the first stage. Thus, via predicting a successful landing of the first stage, companies are enabled to reduce costs.
+Studies have demonstrated that genetic variants can differ significantly between populations, reflecting ancestral genetic differences. This correlation has implications for understanding disease susceptibility, treatment response, and population health disparities.
 
 ## Research Objective:
-This project attempts to identify the factors for a successful first stage landing of SpaceX’ Falcon 9 rocket via:
-- collecting data using SpaceX REST API and webscraping methods
-- wrangle data to create success/fail outcome variable
-- explore data with SQL and data visualization techniques
-- predict landing outcome via several machine learning techniques
+This project attempts to assess the correlation of genetic ancestry with genetic variation via:
+- parsing data from human chromosome 22 and an associated population data panel
+- running dimensionality reduction to assess correlation via geographic map
+- dimensionality reduction will include PCA and tSNE
   
 ## Results:
-Significantly landing success-influencing factors are launching success, landing sites and orbits. In detail, launching success increased over time and launch site KSC LC-39A has the highest success rate among landing sites. Additionally, orbits (ES-L1, GEO, HEO, SSO) have a 100 % success rate. 
+
