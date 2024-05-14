@@ -10,6 +10,11 @@ This project attempts to assess the correlation of genetic variation with geneti
 - parsing data from human chromosome 22 and an associated population data panel
 - running dimensionality reduction to assess correlation via geographic map
 - dimensionality reduction will include PCA and tSNE and the effectiveness of PCA will be evaluated
+
+## Tools & Languages used
+- WSL Ubuntu for downloading and screening Chr.22 data
+- Python on Linux for using Unix-built packages (i.e. pysam) and creating matrix [see here for the code](vcf_to_matrix.py). The matrix is a representation of the genotype data, where rows correspond to samples and columns correspond to variants.
+- running PCA on [Jupyter Notebook](geographic_map_of_genetic_variation.ipynb) using Python on Windows
   
 ## Results:
 Delving into genetic variants on human chromosome 22, sourced from the 1000 Genomes Project, uncovers fascinating patterns of patient ancestry. Notably, European and American ancestries exhibit intriguing overlaps, echoing the insights gathered by Novembre *et al.*.
